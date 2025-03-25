@@ -19,7 +19,7 @@
 #
 ---
 include:
-  - board: nrf52840dk_nrf52840
+  - board: eyelash_sofle_left
     shield: sofle_left
-  - board: nrf52840dk_nrf52840
+  - board: eyelash_sofle_right
     shield: sofle_right
