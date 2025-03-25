@@ -20,6 +20,6 @@
 ---
 include:
   - board: eyelash_sofle_left
-    shield: left
+    shield: nice_epaper
   - board: eyelash_sofle_right
-    shield: right
+    shield: nice_epaper
