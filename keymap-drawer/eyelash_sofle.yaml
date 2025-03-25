@@ -1,0 +1,592 @@
+layout: {zmk_keyboard: eyelash_sofle}
+layers:
+  QWERTY:
+  - $$mdi:keyboard-esc$$
+  - {t: '1', s: '!'}
+  - {t: '2', s: '@'}
+  - {t: '3', s: '#'}
+  - {t: '4', s: $}
+  - {t: '5', s: '%'}
+  - $$mdi:arrow-up-bold$$
+  - {t: '6', s: ^}
+  - {t: '7', s: '&'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (}
+  - {t: '0', s: )}
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:keyboard-tab$$
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - $$mdi:arrow-down-bold$$
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - {t: \, s: '|'}
+  - $$mdi:apple-keyboard-shift$$
+  - {t: A, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: S, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: D, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: F, h: '$$mdi:apple-keyboard-control$$'}
+  - G
+  - $$mdi:arrow-left-bold$$
+  - H
+  - {t: J, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: K, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: L, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: '''', h: '$$mdi:apple-keyboard-command$$', s: '"'}
+  - {t: ;, s: ':'}
+  - $$mdi:apple-keyboard-control$$
+  - {t: Z, h: BUTTON}
+  - X
+  - C
+  - V
+  - B
+  - $$mdi:arrow-right-bold$$
+  - N
+  - M
+  - {t: ',', s: <}
+  - .
+  - {t: /, h: BUTTON, s: '?'}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:volume-off$$
+  - $$mdi:apple-keyboard-command$$
+  - $$mdi:apple-keyboard-option$$
+  - {t: '$$mdi:keyboard-esc$$', h: MEDIA}
+  - {t: '$$mdi:keyboard-tab$$', h: NAVI}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: MOUSE}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:keyboard-space$$', h: SYMBOL}
+  - {t: '$$mdi:keyboard-return$$', h: NUMBER}
+  - {t: '$$mdi:backspace$$', h: FUNC}
+  - {t: '-', s: _}
+  - {t: '=', s: +}
+  COLEMAK:
+  - $$mdi:keyboard-esc$$
+  - {t: '1', s: '!'}
+  - {t: '2', s: '@'}
+  - {t: '3', s: '#'}
+  - {t: '4', s: $}
+  - {t: '5', s: '%'}
+  - $$mdi:arrow-up-bold$$
+  - {t: '6', s: ^}
+  - {t: '7', s: '&'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (}
+  - {t: '0', s: )}
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:keyboard-tab$$
+  - Q
+  - W
+  - F
+  - P
+  - B
+  - $$mdi:arrow-down-bold$$
+  - J
+  - L
+  - U
+  - Y
+  - {t: '''', s: '"'}
+  - {t: \, s: '|'}
+  - $$mdi:apple-keyboard-shift$$
+  - {t: A, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: R, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: S, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: T, h: '$$mdi:apple-keyboard-control$$'}
+  - G
+  - $$mdi:arrow-left-bold$$
+  - M
+  - {t: N, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: E, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: I, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: O, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: ;, s: ':'}
+  - $$mdi:apple-keyboard-control$$
+  - {t: Z, h: BUTTON}
+  - X
+  - C
+  - D
+  - V
+  - $$mdi:arrow-right-bold$$
+  - K
+  - H
+  - {t: ',', s: <}
+  - .
+  - {t: /, h: BUTTON, s: '?'}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:volume-off$$
+  - $$mdi:apple-keyboard-command$$
+  - $$mdi:apple-keyboard-option$$
+  - {t: '$$mdi:keyboard-esc$$', h: MEDIA}
+  - {t: '$$mdi:keyboard-tab$$', h: NAVI}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: MOUSE}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:keyboard-space$$', h: SYMBOL}
+  - {t: '$$mdi:keyboard-return$$', h: NUMBER}
+  - {t: '$$mdi:backspace$$', h: FUNC}
+  - {t: '-', s: _}
+  - {t: '=', s: +}
+  NUMBER:
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - $$mdi:arrow-up-bold$$
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {t: '[', s: '{'}
+  - {t: '7', s: '&'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (}
+  - {t: ']', s: '}'}
+  - $$mdi:arrow-down-bold$$
+  - {type: none}
+  - BASE
+  - EXTRA
+  - {type: none}
+  - $$mdi:progress-download$$
+  - {type: none}
+  - {type: none}
+  - {t: ;, s: ':'}
+  - {t: '4', s: $}
+  - {t: '5', s: '%'}
+  - {t: '6', s: ^}
+  - {t: '=', s: +}
+  - $$mdi:arrow-left-bold$$
+  - {type: none}
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-command$$
+  - {type: none}
+  - {type: none}
+  - {t: '`', s: '~'}
+  - {t: '1', s: '!'}
+  - {t: '2', s: '@'}
+  - {t: '3', s: '#'}
+  - {t: \, s: '|'}
+  - $$mdi:arrow-right-bold$$
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - $$mdi:volume-off$$
+  - {type: none}
+  - {type: none}
+  - {t: ., s: '>'}
+  - {t: '0', s: )}
+  - {t: '-', s: _}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {type: none}
+  - {type: held}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  SYMBOL:
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - $$mdi:arrow-up-bold$$
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - '{'
+  - '&'
+  - '*'
+  - (
+  - '}'
+  - $$mdi:arrow-down-bold$$
+  - {type: none}
+  - BASE
+  - EXTRA
+  - {type: none}
+  - $$mdi:progress-download$$
+  - {type: none}
+  - {type: none}
+  - ':'
+  - $
+  - '%'
+  - ^
+  - +
+  - $$mdi:arrow-left-bold$$
+  - {type: none}
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-command$$
+  - {type: none}
+  - {type: none}
+  - '~'
+  - '!'
+  - '@'
+  - '#'
+  - '|'
+  - $$mdi:arrow-right-bold$$
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - $$mdi:volume-off$$
+  - {type: none}
+  - {type: none}
+  - (
+  - )
+  - _
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {type: held}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  FUNC:
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - $$mdi:arrow-up-bold$$
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - F12
+  - F7
+  - F8
+  - F9
+  - $$mdi:printer-outline$$
+  - $$mdi:arrow-down-bold$$
+  - {type: none}
+  - BASE
+  - EXTRA
+  - {type: none}
+  - $$mdi:progress-download$$
+  - {type: none}
+  - {type: none}
+  - F11
+  - F4
+  - F5
+  - F6
+  - SLCK
+  - $$mdi:arrow-left-bold$$
+  - {type: none}
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-command$$
+  - {type: none}
+  - {type: none}
+  - F10
+  - F1
+  - F2
+  - F3
+  - PAUSE BREAK
+  - $$mdi:arrow-right-bold$$
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - $$mdi:volume-off$$
+  - {type: none}
+  - {type: none}
+  - APP
+  - $$mdi:keyboard-tab$$
+  - $$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {type: none}
+  - {type: none}
+  - {type: held}
+  - {type: none}
+  - {type: none}
+  NAVI:
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - $$mdi:arrow-up-bold$$
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - $$mdi:progress-download$$
+  - {type: none}
+  - EXTRA
+  - BASE
+  - {type: none}
+  - $$mdi:arrow-down-bold$$
+  - REDO
+  - PASTE
+  - COPY
+  - CUT
+  - UNDO
+  - {type: none}
+  - {type: none}
+  - $$mdi:apple-keyboard-command$$
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-control$$
+  - {type: none}
+  - $$mdi:arrow-left-bold$$
+  - {t: '$$mdi:alpha-w-box$$', s: '$$mdi:apple-keyboard-caps$$'}
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-up-bold$$
+  - $$mdi:arrow-right-bold$$
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - $$mdi:arrow-right-bold$$
+  - INS
+  - HOME
+  - PG DN
+  - PG UP
+  - END
+  - {type: none}
+  - $$mdi:volume-off$$
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: held}
+  - {type: none}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - {type: none}
+  - {type: none}
+  MOUSE:
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - $$mdi:progress-download$$
+  - {type: none}
+  - EXTRA
+  - BASE
+  - {type: none}
+  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
+  - REDO
+  - PASTE
+  - COPY
+  - CUT
+  - UNDO
+  - {type: none}
+  - {type: none}
+  - $$mdi:apple-keyboard-command$$
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-control$$
+  - {type: none}
+  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
+  - {type: none}
+  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
+  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
+  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
+  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
+  - {type: none}
+  - $$mdi:pan-left$$
+  - $$mdi:pan-down$$
+  - $$mdi:pan-up$$
+  - $$mdi:pan-right$$
+  - {type: none}
+  - $$mdi:volume-off$$
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: held}
+  - $$mdi:mouse-left-click-outline$$
+  - $$mdi:mouse-left-click-outline$$
+  - $$mdi:mouse-right-click-outline$$
+  - $$mdi:mouse-scroll-wheel$$
+  - {type: none}
+  - {type: none}
+  MEDIA:
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - RGB HUI
+  - {type: none}
+  - RGB EFR
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - $$mdi:progress-download$$
+  - {type: none}
+  - EXTRA
+  - BASE
+  - {type: none}
+  - RGB HUD
+  - RGB TOG
+  - RGB EFF
+  - {t: RGB HUI, s: RGB HUD}
+  - {t: RGB SAI, s: RGB SAD}
+  - {t: RGB SPI, s: RGB SPD}
+  - {type: none}
+  - {type: none}
+  - $$mdi:apple-keyboard-command$$
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-control$$
+  - {type: none}
+  - RGB SAI
+  - {t: EP TOG, s: EP OFF}
+  - $$mdi:skip-previous$$
+  - $$mdi:volume-low$$
+  - $$mdi:volume-high$$
+  - $$mdi:skip-next$$
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - RGB SAD
+  - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: OUT USB}
+  - {h: '1', s: '$$mdi:bluetooth-connect$$'}
+  - {h: '2', s: '$$mdi:bluetooth-connect$$'}
+  - {h: '3', s: '$$mdi:bluetooth-connect$$'}
+  - {h: '4', s: '$$mdi:bluetooth-connect$$'}
+  - {h: '5', s: '$$mdi:bluetooth-connect$$'}
+  - $$mdi:volume-off$$
+  - {type: none}
+  - {type: none}
+  - {type: held}
+  - {type: none}
+  - {type: none}
+  - {t: RGB ON, s: RGB OFF}
+  - STOP
+  - $$mdi:play-pause$$
+  - $$mdi:volume-off$$
+  - {type: none}
+  - {type: none}
+  BUTTON:
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - $$mdi:arrow-up-bold$$
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - UNDO
+  - CUT
+  - COPY
+  - PASTE
+  - REDO
+  - $$mdi:arrow-down-bold$$
+  - REDO
+  - PASTE
+  - COPY
+  - CUT
+  - UNDO
+  - {type: none}
+  - {type: none}
+  - $$mdi:apple-keyboard-command$$
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-control$$
+  - {type: none}
+  - $$mdi:arrow-left-bold$$
+  - {type: none}
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-command$$
+  - {type: none}
+  - {type: none}
+  - {t: UNDO, type: held}
+  - CUT
+  - COPY
+  - PASTE
+  - REDO
+  - $$mdi:arrow-right-bold$$
+  - REDO
+  - PASTE
+  - COPY
+  - CUT
+  - {t: UNDO, type: held alternate}
+  - {type: none}
+  - $$mdi:volume-off$$
+  - {type: none}
+  - {type: none}
+  - $$mdi:mouse-scroll-wheel$$
+  - $$mdi:mouse-right-click-outline$$
+  - $$mdi:mouse-left-click-outline$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:mouse-left-click-outline$$
+  - $$mdi:mouse-right-click-outline$$
+  - $$mdi:mouse-scroll-wheel$$
+  - {type: none}
+  - {type: none}
+combos:
+- p: [0, 13]
+  k: $$mdi:star-three-points$$
+- p: [12, 25]
+  k: $$mdi:printer-outline$$
